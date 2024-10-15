@@ -473,9 +473,9 @@ label{
     padding: 0.5rem;
   }
   #profile{
-    margin-top: 4rem;
     flex-direction: column;
     row-gap: 1rem;
+    margin-top: 8rem;
   }
 
   .about-content{
