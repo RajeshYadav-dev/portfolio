@@ -95,6 +95,7 @@ label{
   justify-content: center;
   align-items: center;
   column-gap: 4rem;
+  margin-top: 2rem;
 }
 
 .profile-img img{
@@ -223,7 +224,7 @@ label{
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 
 .exp-text, .exp-content{
@@ -291,6 +292,7 @@ label{
   align-items: center;
   flex-direction: column;
   gap: 1rem;
+  margin-bottom: 5rem;
 }
 
 .project-content{
@@ -438,7 +440,7 @@ label{
 }
 
 
-@media  (max-width:800px) {
+@media  (max-width:770px) {
   .about-content{
     flex-direction: column;
   }
@@ -475,7 +477,22 @@ label{
   #profile{
     flex-direction: column;
     row-gap: 1rem;
-    margin-top: 8rem;
+    margin-top: 3.5rem;
+  }
+
+  #about{
+    margin-top: 20rem;
+  }
+  #experience{
+    margin-top: 25rem;
+  }
+
+  #project{
+    margin-top: 40rem;
+  }
+
+  #contact{
+    margin-top: 30rem;
   }
 
   .about-content{
@@ -506,18 +523,6 @@ label{
   }
   .footer-list{
     flex-direction: column;
-  }
-
-  #experience{
-    margin-top: 12rem;
-  }
-
-  #project{
-    margin-top: 18rem;
-  }
-
-  #contact{
-    margin-top: 12rem;
   }
 
 
