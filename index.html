@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>project</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">Rajesh Yadav</div>
+    <input type="checkbox" id="check">
+    <label for="check" class="humburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </label>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#about" class="nav-link">
+            About
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#experience" class="nav-link">
+            Experience
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#project" class="nav-link">
+            Project
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="profile">
+    <div class="profile-img">
+      <img src="./assets/pic1.jpg" alt="profile pic">
+    </div>
+    <div class="profile-text">
+      <h5>Hello I'm</h5>
+      <h2>Rajesh Yadav</h2>
+      <h4>Software Developer</h4>
+      <div class="profile-btn">
+        <button onclick="window.open('./assets/RajeshYadav_CV.pdf');">Download CV</button>
+        <button onclick="window.location.href='#contact';">Contact Info</button>
+      </div>
+      <div class="profile-social">
+        <a href="https://github.com">
+          <img src="./assets/github.png" alt="gitgub pic">
+        </a>
+        <a href="https://linkedin.com">
+          <img src="./assets/linkedin.png" alt="linkedin pic">
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="about-text">
+      <h5 class=>Get To Know More Me</h5>
+      <h3>About Me</h3>
+    </div>
+    <div class="about-content">
+      <div class="about-img">
+        <img src="./assets/pic2.jpg" alt="profile pic">
+      </div>
+      <div class="edu-exp-sum">
+        <div class="edu-exp">
+          <div class="edu">
+            <div class="edu-pic">
+              <img src="./assets/education.png" alt="edu pic">
+            </div>
+            <p>Education</p>
+            <p>B.tech</p>
+            <p>Computer Science Eng</p>
+          </div>
+          <div class="exp">
+            <div class="edu-pic">
+              <img src="./assets/experience.png" alt="exp pic">
+            </div>
+            <p>Experience</p>
+            <p>1+ Years</p>
+            <p>Software Developer</p>
+          </div>
+        </div>
+        <div class="sum">
+          Experienced Software Developer with 1+ year of hands-on
+          experience in developing robust and scalableapplications.
+          Passionate about leveraging Java to create innovative solutions
+          that address complex business challenges.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="exp-text">
+      <p class="p-1">Explore My</p>
+      <h2>Experience</h2>
+    </div>
+    <div class="exp-content">
+      <div class="frontend">
+        <h3>Frontend Development</h3>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>HTML5</h5>
+        </div>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>CSS3</h5>
+        </div>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>JavaScript</h5>
+        </div>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>ReactJs</h5>
+        </div>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>Bootstrap5</h5>
+        </div>
+      </div>
+      <div class="backend">
+        <h3>Backend Development</h3>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>Core Java</h5>
+        </div>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>Spring Boot</h5>
+        </div>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>Hibernate</h5>
+        </div>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>RestAPI</h5>
+        </div>
+        <div class="content">
+          <div>
+            <img src="./assets/correct.png" alt="correct">
+          </div>
+          <h5>FullStack</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project">
+    <div class="project-text">
+      <h5>Browse My Recent</h5>
+      <h3>Project</h3>
+    </div>
+    <div class="project-content">
+      <div class="project-one">
+        <div><img src="./assets/project1.png" alt="project"></div>
+        <h3>My Portfolio</h3>
+        <div class="project-btn">
+          <button onclick="window.location.href='https://github.com'">Github</button>
+          <button onclick="window.location.href='https://github.com'">Live-Demo</button>
+        </div>
+      </div>
+      <div class="project-two">
+        <div><img src="./assets/project1.png" alt="project"></div>
+        <h3>Project Name</h3>
+        <div class="project-btn">
+          <button onclick="window.location.href='https://github.com'">Github</button>
+          <button onclick="window.location.href='https://github.com'">Live-Demo</button>
+        </div>
+      </div>
+      <div class="project-three">
+        <div><img src="./assets/project1.png" alt="project"></div>
+        <h3>Project Name</h3>
+        <div class="project-btn">
+          <button onclick="window.location.href='https://github.com'">Github</button>
+          <button onclick="window.location.href='https://github.com'">Live-Demo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="cont-text">
+      <p class="p-1">Get In Touch</p>
+      <h2>Contact Me</h2>
+    </div>
+    <div class="cont-content">
+      <div class="co email">
+        <img src="./assets/gmail.png" alt="email-pic">
+        <a href="mail:">@gmail.com</a>
+      </div>
+      <div class="co linkedln">
+        <img src="./assets/linkedin.png" alt="linkedln-pic">
+        <a href="https://linkedin.com/">Linkedln</a>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="footer-content">
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a href="#about" class="footer-link">
+            About
+          </a>
+        </li>
+        <li class="footer-item">
+          <a href="#experience" class="footer-link">
+            Experience
+          </a>
+        </li>
+        <li class="footer-item">
+          <a href="#project" class="footer-link">
+            Project
+          </a>
+        </li>
+        <li class="footer-item">
+          <a href="#contact" class="footer-link">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="copy">
+      <p>
+        Copyright © 2024 Rajesh Yadav. All Rights Reserved.
+      </p>
+    </div>
+  </section>
+</body>
+
+</html>
