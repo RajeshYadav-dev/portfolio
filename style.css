@@ -10,6 +10,7 @@ body{
   display: flex;
   flex-direction: column;
   background-color: #e8f0f7;
+  scroll-behavior: smooth;
 }
 
 .logo{
@@ -441,6 +442,13 @@ label{
 
 
 @media  (max-width:770px) {
+  #profile{
+    margin-bottom: 15rem;
+  }
+
+  #about{
+    margin-bottom: 15rem;
+  }
   .about-content{
     flex-direction: column;
   }
